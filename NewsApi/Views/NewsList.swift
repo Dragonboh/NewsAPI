@@ -66,10 +66,6 @@ struct NewsListCell: View {
 }
 
 struct NewsList_Previews: PreviewProvider {
-    static var list = [NewsListDisplayModel(id: UUID(), title: "title 1", description: "description 1"),
-                    NewsListDisplayModel(id: UUID(), title: "title 2", description: "description 2"),
-                    NewsListDisplayModel(id: UUID(), title: "title 3", description: "description 3"),
-                    NewsListDisplayModel(id: UUID(), title: "title 4", description: "description 4")]
     static var previews: some View {
         NewsList()
     }
